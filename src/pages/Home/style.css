@@ -1,0 +1,28 @@
+img {
+	margin-bottom: 1.5rem;
+}
+
+.home section {
+	margin-top: 5rem;
+	display: flex;
+	justify-content: space-between;
+	column-gap: 1.5rem;
+}
+
+.logo {
+	color: #ccc
+}
+
+@media (max-width: 639px) {
+	.home section {
+		margin-top: 5rem;
+		display: block;
+		row-gap: 1rem;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.resource {
+		color: #ccc
+	}
+}
