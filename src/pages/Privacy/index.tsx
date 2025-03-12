@@ -2,7 +2,7 @@ import './style.css';
 
 export function Privacy() {
     return (
-        <>
+        <div>
             <h1>
                 Privacy policy for My Chemical Simulator
             </h1>
@@ -37,6 +37,6 @@ export function Privacy() {
                 
                 <p>If you have any questions or concerns regarding this privacy policy, please contact us at michisandgames@gmail.com.</p>
             </div>
-        </>
+        </div>
     );
 }
