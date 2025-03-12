@@ -1,5 +1,6 @@
 import { LocationProvider, Router, Route, hydrate, prerender as ssr } from 'preact-iso';
 
+import { Header } from './components/Header.js';
 import { Home } from './pages/Home/index.jsx';
 import { Privacy } from './pages/Privacy/index.js';
 import './style.css';
@@ -7,6 +8,7 @@ import './style.css';
 export function App() {
 	return (
 		<LocationProvider>
+			<Header />
 			<main>
 				<Router>
 					<Route path='/' component={Home} />
