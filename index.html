@@ -1,45 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
-    <title>Michis and Games</title>
-    <style>
-        body {
-            background: linear-gradient(117deg, rgba(8,2,43,1) 0%, rgba(9,9,121,1) 32%, rgba(0,95,166,1) 100%);
-            background-repeat: no-repeat;
-            font-family: 'Roboto', sans-serif;
-            height: 100vh;
-            text-align: center;
-            vertical-align: middle;
-        }
-        h1, h2, a {
-            color: whitesmoke;
-        }
-        .container {
-            display: flex;
-            justify-content: space-around;
-            vertical-align: middle;
-        }
-        .button {
-            text-decoration: none;
-            padding: 2%;
-            margin: 2%;
-            background-color: rgba(0,95,166,1);
-            border-radius: 10px;
-        }
-    </style>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="color-scheme" content="light dark" />
+	<title>Michis and Games</title>
+	<link rel="icon" type="image/svg+xml" href="/michi.svg" />
 </head>
 <body>
-    <h1>Michis and Games</h1>
-    <h2>This site is under construction</h2>
-    <div class="container">
-        <a class="button" href="politica-privacidad.html">Politica de privacidad</a>
-        <a class="button" href="privacy-policy.html">Privacy policy</a>
-    </div>
+	<div id="app"></div>
+	<script prerender type="module" src="/src/index.tsx"></script>
 </body>
 </html>
