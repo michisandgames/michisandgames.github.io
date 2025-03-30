@@ -27,17 +27,17 @@ export function Home() {
 				<Social
 					title="X (formerly twitter)"
 					icon={twitter}
-					href="https://x.com/MyChemSim"
+					href="https://x.com/MichisandGames"
 				/>
 				<Social
 					title="LinkendIn profile"
 					icon={linkedin}
-					href="#"
+					href="https://www.linkedin.com/company/michis-and-games"
 				/>
 				<Social
 					title="Discord server"
 					icon={discord}
-					href="#"
+					href="https://discord.gg/Jbmtz8TbBn"
 				/>
 			</section>
 		</div>
