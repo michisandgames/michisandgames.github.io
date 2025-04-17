@@ -37,7 +37,7 @@ export function Home() {
 				<Social
 					title="Discord server"
 					icon={discord}
-					href="https://discord.gg/Jbmtz8TbBn"
+					href="https://discord.gg/fh4AGbwFUz"
 				/>
 			</section>
 		</div>
