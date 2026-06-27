@@ -1,4 +1,4 @@
-import michisLogo from '../../assets/michi.svg';
+import michisLogo from '../../assets/michi.png';
 import {
 	IconBrandYoutubeFilled as youtube,
 	IconBrandGooglePlay as playstore,
@@ -11,7 +11,7 @@ import './style.css';
 export function Home() {
 	return (
 		<div class="home">
-			<img class="logo" src={michisLogo} alt="Michis logo" height="360" width="360" />
+			<img class="logo" src={michisLogo} alt="Michis logo" height="360" width="392" />
 			<h1>This place is under construction </h1>
 			<section>
 				<Social
@@ -44,7 +44,7 @@ export function Home() {
 	);
 }
 
-function Social(props) {
+function Social(props: any) {
 	return (
 		<a  class="resource" href={props.href} target="_blank" title={props.title}>
 			<props.icon size={48} />

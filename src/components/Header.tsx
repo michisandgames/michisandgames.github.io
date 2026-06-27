@@ -6,10 +6,10 @@ export function Header() {
 	return (
 		<header>
 			<nav>
-				<a href="/" class={url == '/' && 'active'}>
+				<a href="/" class={url === '/' ? 'active' : ''}>
 					Home
 				</a>
-				<a href="/privacy-policy" class={url == '/privacy-policy' && 'active'}>
+				<a href="/privacy-policy" class={url === '/privacy-policy' ? 'active' : ''}>
 					Privacy policy
 				</a>
 			</nav>

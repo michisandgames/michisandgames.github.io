@@ -11,7 +11,7 @@ jobs:
 
     strategy:
           matrix:
-            node-version: [20.x]
+            node-version: [24.x]
 
     steps:
       - name: Checkout repo
@@ -25,11 +25,14 @@ jobs:
       - name: location 
         run: pwd && ls 
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+      
       - name: Install modules
-        run: npm install
+        run: pnpm install
 
       - name: Build app
-        run: npm run build
+        run: pnpm run build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v4

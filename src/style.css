@@ -3,8 +3,9 @@
 	line-height: 1.5;
 	font-weight: 400;
 
-	color: #222;
-	background-color: #ffffff;
+	color: #ccc;
+	background: rgb(2,4,43);
+	background: linear-gradient(60deg, rgba(2,4,43,1) 0%, rgba(4,8,52,1) 30%, rgba(17,51,102,1) 100%);
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;

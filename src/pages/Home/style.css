@@ -13,6 +13,10 @@ img {
 	color: #ccc
 }
 
+.resource {
+	color: #ccc
+}
+
 @media (max-width: 639px) {
 	.home section {
 		margin-top: 5rem;
